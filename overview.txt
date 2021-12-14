@@ -1,0 +1,29 @@
+First Part of app Basic creation of server
+-initialize npm: npm init
+-create gitignore: for ignoring files that are not to be uploaded on github
+-create github repository;
+________________________________________________________________________________
+2.
+________________________________________________________________________________
+-create entry point file on server: server.js
+-install express and mongoose repository
+-create listening port
+-create database connection
+        -create new project in mongoDB atlas
+        -create new cluster(one free cluster per project)
+        -go to network access, add IP address(select access from anywhere)
+-create new user in mongoDB atlas
+        -go to database access under security
+        -enter username-password for the username
+        -provide read/write privilge as required
+-create connection
+        -go to databases and select connect
+        -select "connect with your applicaction" 
+        -select settings and copy the connection string to the mongodb file in code
+                mongoose.connect('copied content',{})
+        -enter the user's password in the provided space.
+(Go till this part in drone map app as well)
+
+        
+
+
