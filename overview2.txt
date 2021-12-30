@@ -1,0 +1,5 @@
+-create react app after creating a client folder, clean up the boilerplate code.
+-add bootstrap links in index.html and font-awesome
+-install react-router-dom package for router functionalities
+-create Header, Home, SignIn, SignUp, and NotFound
+-Add Bootstrap and fontawesome to index.html
